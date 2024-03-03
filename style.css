@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+ul{
+    list-style-type: none;
+
+}
+nav{
+    box-shadow: -1px 6px 12px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 6px 12px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 12px -5px rgba(0,0,0,0.75);
+
+}
+.showcasetext{
+
+ color:white;
+ /* font-size: 1rem; */
+
+   
+  
+}
+li{
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+.showcaseimage{
+    
+    width: 100%;
+min-height: 70vh;
+    /* top: -80px; */
+opacity: 0.5;
+font-weight: bolder;
+color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  font-size: 100px;
+  background: linear-gradient(90deg, rgba(37, 23, 29, 0.247) 0%, rgba(0,0,0,0.20772058823529416) 100%),url('https://wallpaperbat.com/img/7308960-download-a-delicious-plate-of-golden-yellow-biryani-wallpaper.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+position: relative;
+  display: flex;
+background-repeat: no-repeat;
+align-items: center;
+justify-content: center;
+}
+@media(max-width:760px){
+    .showcaseimage{
+        min-height: 30vh;
+        
+    }    
+}
+.offerpanel{
+    width:60%;
+    height:120vh;
+    /* background-color: green; */
+    /* display: flex;
+    overflow: auto;
+    scroll-snap-type: x proximity; */
+    /* flex-wrap: wrap; */
+
+ /* margin-left:10rem;j */
+ 
+ /* margin-right: 25rem; */
+/* }
+.offers{
+    /* justify-content: center; */
+    flex: none;
+display: flex;
+justify-content: center;
+align-items: center;
+    height:40vh;
+    width:100%;
+    flex: none;
+scroll-snap-align:end;
+border-radius: 20px;
+margin-left: 20px;
+/* flex-wrap: wrap; */
+}
+.offers_board{
+    display: flex;
+    justify-content: center;
+margin-bottom: 2rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3rem 3rem;
+    align-content: space-between;
+    width: 100%;
+
+}
+.card{
+    margin-bottom: 1.9rem;
+    box-shadow: 12px 15px 13px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 12px 15px 13px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 15px 13px -11px rgba(0,0,0,0.75);
+}
+
+.onlinedeliver{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3rem 3rem;
+    align-content: space-between;
+}
+.aboutus{
+    padding: 0.5rem 0.5rem;
+    line-height: 1.8rem;
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 20%;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: gray;
+color: whitesmoke;
+border-radius: 10px;
+}
+.dev{
+    margin-left: 50%;
+}
+footer{
+   
+    width: 100%;
+    color: whitesmoke;
+    margin-top: 3rem;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 2rem 2rem;
+    /* position: relative; */
+
+}
+.columns{
+    padding: 1rem 1rem;
+    /* margin: 1rem 0.7rem; */
+    
+}
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.icons{
+    font-size: 20px;
+    margin: 10px 10px;
+}
+.Offerinfo{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.span1{
+    font-weight: bolder;
+
+}
+.span,.span1,h2,.span2{
+    background: #2C0FCF;
+background: linear-gradient(to right, #2C0FCF 16%, #FF1447 88%, #CF2828 25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.showcasetext{
+
+    font-size: 5vw;
+    text-align: center;
+}
+.nav1{
+    overflow-x: hidden;
+}
+.logotitle{
+    margin-left: 1rem;
+}
